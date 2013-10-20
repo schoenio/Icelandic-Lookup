@@ -1,13 +1,13 @@
 /**
  * Icelandic Lookup (Chrome Extension)
  *
- * Adds options to your right-click menu allowing you to quickly lookup
- * morphology and English translations for the selected Icelandic word.
+ * Adds context menu options to quickly lookup morphology and English translations
+ *    for the selected Icelandic word.
  *
  * @author      web@peterhartree (Peter Hartree)
  * @author-uri  http://web.peterhartree.co.uk
 
- * @version     1.0
+ * @version     1.0.1
  * @updated     2013-10-20
  *
  */

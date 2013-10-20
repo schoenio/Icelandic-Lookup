@@ -1,14 +1,14 @@
 {
   "name": "Icelandic Lookup",
-  "description": "Adds options to your right-click menu allowing you to quickly
-      lookup morphology and English translations for the selected Icelandic word.",
-  "version": "1.0",
+  "description": "Adds context menu options to quickly lookup morphology and
+      English translations for the selected Icelandic word.",
+  "version": "1.0.1",
   "author": "Peter Hartree",
 
   "permissions": ["contextMenus"],
   "background": {
     "persistent": false,
-    "scripts": ["icelandic-references.js"]
+    "scripts": ["icelandic-lookup.js"]
   },
 
   "icons": {
