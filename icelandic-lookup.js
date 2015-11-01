@@ -46,13 +46,13 @@ var referenceSources = {};
 
 referenceSources['binHeadword'] = new ReferenceSource(
   'Morphology (search headword only)',
-  'http://bin.arnastofnun.is/leit.php?q=',
+  'http://bin.arnastofnun.is/leit/?q=',
   null
 );
 
 referenceSources['binInflections'] = new ReferenceSource(
   'Morphology (search headword and inflections)',
-  'http://bin.arnastofnun.is/leit.php?ordmyndir=on&q=',
+  'http://bin.arnastofnun.is/leit/?ordmyndir=on&q=',
   null
 );
 
