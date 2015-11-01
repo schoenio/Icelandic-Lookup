@@ -2,7 +2,7 @@
   "name": "Icelandic Lookup",
   "description": "Adds context menu options to quickly lookup morphology and
       English translations for the selected Icelandic word.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Peter Hartree",
 
   "permissions": ["contextMenus"],
