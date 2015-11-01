@@ -1,7 +1,7 @@
 Icelandic Lookup
 ================
 
-An extension for Google Chrome that adds options to your context (right-click) menu allowing you to quickly lookup morphology and English translations for the selected Icelandic word.
+An extension for Google Chrome. Adds options to your context (right-click) menu so you can quickly lookup morphology and English translations for the selected Icelandic word.
 
 Usage
 -----
