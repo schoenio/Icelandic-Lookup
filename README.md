@@ -1,4 +1,4 @@
-Icelandic-Lookup
+Icelandic Lookup
 ================
 
 An extension for Google Chrome that adds options to your context (right-click) menu allowing you to quickly lookup morphology and English translations for the selected Icelandic word.
@@ -11,11 +11,11 @@ Usage
 
 Supported references
 -----
-[Beygingarlýsing íslensks nútímamáls](http://bin.arnastofnun.is/) (headword only)
-[Beygingarlýsing íslensks nútímamáls](http://bin.arnastofnun.is/) (headword and inflections)
-[Íslensk-ensk orðabók](http://digicoll.library.wisc.edu/cgi-bin/IcelOnline/IcelOnline.TEId-idx?id=IcelOnline.IEOrd) (headword only)
-[Íslensk-ensk orðabók](http://digicoll.library.wisc.edu/cgi-bin/IcelOnline/IcelOnline.TEId-idx?id=IcelOnline.IEOrd) (full text)
-[Machine translation by Google](https://translate.google.com/#is/en/)
+- [Beygingarlýsing íslensks nútímamáls](http://bin.arnastofnun.is/) (headword only)
+- [Beygingarlýsing íslensks nútímamáls](http://bin.arnastofnun.is/) (headword and inflections)
+- [Íslensk-ensk orðabók](http://digicoll.library.wisc.edu/cgi-bin/IcelOnline/IcelOnline.TEId-idx?id=IcelOnline.IEOrd) (headword only)
+- [Íslensk-ensk orðabók](http://digicoll.library.wisc.edu/cgi-bin/IcelOnline/IcelOnline.TEId-idx?id=IcelOnline.IEOrd) (full text)
+- [Machine translation by Google](https://translate.google.com/#is/en/)
 
 Bugs, feature requests and contributions
 -----
