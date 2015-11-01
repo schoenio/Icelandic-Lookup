@@ -5,10 +5,10 @@
  *    for the selected Icelandic word.
  *
  * @author      web@peterhartree (Peter Hartree)
- * @author-uri  http://web.peterhartree.co.uk
+ * @author-uri  http://www.peterhartree.co.uk
 
- * @version     1.0.1
- * @updated     2013-10-20
+ * @version     1.0.2
+ * @updated     2015-11-01
  *
  */
 
@@ -86,12 +86,7 @@ function onClickHandler(info, tab) {
 
 };
 
-chrome.contextMenus.onClicked.addListener(onClickHandler);
-
-/** Set up context menu tree at install time. */
-
-chrome.runtime.onInstalled.addListener(function() {
-
+function addContextMenuItems() {
   for(var key in referenceSources) {
     if(referenceSources.hasOwnProperty(key)) {
 
@@ -102,8 +97,19 @@ chrome.runtime.onInstalled.addListener(function() {
       });
     }
   }
+}
 
+chrome.contextMenus.onClicked.addListener(onClickHandler);
+
+/* Add context menu items when the extension is installed, and on profile startup */
+chrome.runtime.onInstalled.addListener(function() {
+  addContextMenuItems();
 });
+
+chrome.runtime.onStartup.addListener(function() {
+  addContextMenuItems();
+});
+
 
 /** diacritics removal function adapted from https://gist.github.com/4464251 by
 *       chrishough */
